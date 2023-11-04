@@ -1,0 +1,193 @@
+figure
+{
+  width: 200px;
+  float: right;
+}
+
+#phonehub 
+{
+  height: 300px;
+  width: 550px;
+  margin-left: -409px;
+  margin-top: -150px;
+}
+
+#bust
+{
+  height: 450px;
+  width: 650px;
+  margin-bottom: -590px;
+  margin-left: -350px;
+}
+
+#tekst-box 
+{
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 4px; 
+  width: 700px; 
+  line-height: 1.6;
+}
+
+#tekst-box2
+{
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 4px; 
+  width: 800px; 
+  line-height: 1.6;
+}
+
+#tekst-box3 
+{
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 4px; 
+  width: 900px; 
+  line-height: 1.6;
+}
+
+#iframemaps
+{
+  width: 600px;
+  height: 450px; 
+  border-width: 4px;
+  border-color: orange;
+}
+
+
+
+
+
+#afspraakForm
+{
+  width: 70%; 
+  max-width: 600px; 
+  height: 500px; 
+  padding: 20px; 
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin-top: 90px;
+}
+
+#inkoop
+{
+  color: black;
+  padding: 4px;
+  margin-left: 360px;
+  margin-top: 100px;
+}
+
+#komen
+{
+  color: orange;
+  margin-left: 500px;
+}
+
+.tijd
+{
+  line-height: 4,5;
+}
+
+
+
+
+
+#call
+{
+  color: orange;
+  border: 1px solid white;
+  padding: 4px;
+  width: 400px;
+  margin-left: 600px;
+  margin-top: 100px;
+}
+
+#help
+{
+  color: black;
+  border: 1px solid white;
+  padding: 4px;
+  margin-left: 320px;
+}
+
+#free
+{
+  color: orange;
+  margin-left: 400px;
+}
+
+#contactForm
+{
+  width: 70%; 
+  max-width: 600px; 
+  height: 500px; 
+  padding: 20px; 
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  margin-top: 90px;
+}
+
+
+
+
+
+#bodyprijzen
+{
+  background-image: url(../images/Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#tabellen
+{
+  color: orange;
+}
+
+#prijzen
+{
+  width: 850px;
+  margin-top: 60px;
+  margin-left: -5px;
+}
+
+
+
+
+
+#phonehubzakelijk
+{
+  margin-left: 420px;
+  margin-top: 145px;
+  font-size: 70px;
+}
+
+#premium
+{
+  margin-left: 615px;
+}
+
+article 
+{
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 4px; 
+  width: 700px; 
+  margin-top: 180px;
+}
+
+#article2
+{
+  margin-top: -100px;
+}
+
+#imagezakelijk
+{
+  width: 300px;
+  margin-top: -200px;
+  margin-left: 1090px;
+  border-radius: 30px;
+}
+
+.rep
+{
+  font-size: 40px;
+  margin-left: 0px;
+}

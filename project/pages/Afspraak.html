@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+Auteur:         Isaak Kiflom
+Aanmaakdatum:   
+
+Afspraak pagina
+-->
+
+<html>
+    <head>
+        <title>
+            Afspraak Maken | PhoneHub
+        </title>
+        <!-- Declaratie tekenset-->
+        <meta charset="UTF-8" />
+        <!-- Declaratie viewpoint-->
+        <meta name="Viewport" content="width=device-witdh, initial-scale=1.0">
+        <!-- Link naar het css bestand-->
+        <link rel="stylesheet" href="../styles/stylesheet.css">
+        <link rel="stylesheet" href="../styles/stylesheet2.css">
+        <!--   Link naar het script-->
+        <script src="../scripts/scriptAfspraak.js" defer></script>
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li>
+                <a href="../index.html">Home</a>
+                </li>
+                <li>
+                <a href="../pages/Prijzen.html">Prijzen</a>
+                </li>
+                <li>
+                    <a href="../pages/zakelijk.html">Zakelijk</a>
+                </li>
+                <li>
+                    <a href="../pages/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="../pages/Login.html">Login</a>
+                </li>
+                <li>
+                    <a href="" class="afspraak">Maak Afspraak</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="../images/logo.png" alt="logo" class="logo">
+
+        <h1 id="inkoop">
+            Afspraak maken voor reparatie, inkopen of vragen?
+        </h1>
+        <p id="komen">
+            Als u geen dag kunt vinden om een afspraak te kunnen plannen,<br>
+            kunt u ook wanneer u het beste uit komt gerust langs komen
+        </p>
+            
+        <table id="afspraakForm">
+            <tr>
+                <td>
+                    <label for="naam">
+                        Naam:
+                    </label>
+                </td>
+                <td>
+                    <input id="naam" name="naam" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="datum">
+                        Datum:
+                    </label>
+                </td>
+                <td>
+                    <input id="datum" name="datum" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tijd">
+                        Tijd:
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="tijd" name="tijd" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button onclick="planAfspraak()">Plan Afspraak</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Maandag: 12:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Dinsdag - Vrijdag: 11:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Zaterdag: 11:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Zondag: op afspraak
+                    </p>
+                </td>
+            </tr>
+        <table>
+    </body>
+</html>

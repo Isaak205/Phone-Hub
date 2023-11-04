@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+Auteur:         Isaak Kiflom
+Aanmaakdatum:
+
+Contact pagina
+-->
+
+<html>
+    <head>
+        <title>
+            Contact | PhoneHub
+        </title>
+        <!-- Declaratie tekenset-->
+        <meta charset="UTF-8" />
+        <!-- Declaratie viewpoint-->
+        <meta name="Viewport" content="width=device-witdh, initial-scale=1.0">
+        <!-- Link naar het css bestand-->
+        <link rel="stylesheet" href="../styles/stylesheet.css">
+        <link rel="stylesheet" href="../styles/stylesheet2.css">
+        <!-- Link naar het script-->
+        <script src="../scripts/scriptContact.js" defer></script>
+    </head>
+    <body>
+        <nav class="menu">
+            <ul>
+                <li>
+                <a href="../index.html">Home</a>
+                </li>
+                <li>
+                <a href="../pages/Prijzen.html">Prijzen</a>
+                </li>
+                <li>
+                    <a href="../pages/zakelijk.html">Zakelijk</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="../pages/Login.html">Login</a>
+                </li>
+                <li>
+                    <a href="../pages/Afspraak.html" class="afspraak">Maak Afspraak</a>
+                </li>
+            </ul>
+        </nav>
+
+        <img src="../images/logo.png" alt="logo" class="logo">
+
+        <p id="call">
+            Call Us, Write Us, Or Knock On Our Door
+        </p>
+        <h1 id="help">
+            We Helpen U Graag Verder Met Al Uw Vragen En Zorgen.
+        </h1>
+        <p id="free">
+            Feel free to get in touch with us. Whether you have questions, 
+            suggestions, or complaints.
+        </p>
+
+        <table id="contactForm">
+            <tr>
+                <td>
+                    <label for="naam">
+                        Naam:
+                    </label>
+                </td>
+                <td>
+                    <input type="text" id="naam" name="naam" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">
+                        E-mail:
+                    </label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="bericht">
+                        Bericht:
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea id="bericht" name="bericht" rows="5" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="button" onclick="verstuurBericht()">Verstuur</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Maandag: 12:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Dinsdag - Vrijdag: 11:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Zaterdag: 11:00 - 18:00
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        Zondag: op afspraak
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="tijd">
+                        PhoneHub&copy;
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
